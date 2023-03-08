@@ -6,7 +6,7 @@
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch",
     "build": "rollup --config",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build --base=/Final-Prototype/ && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
